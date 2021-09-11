@@ -1,7 +1,7 @@
 # Enumerating-ICS-SCADA-Devices
 This is a repository dedicated to discovering and enumerating industrial control and SCADA devices. Utilizing open-source tools, I have compiled scans and scripts for targeting Operational Technology (OT) devices and hosts! 
 
-To get an overview of the availability of ICS devices in today’s networks, we selected the most represented protocols and probed the entire IPv4 address space to identify how many of those systems were actually openly reachable.
+A brief desciption of each protocol:
 
   - BACnet (Building Automation and Control network) is a communication protocol used by building automation and control systems
   - Fox is a communication protocols most commonly used in building automation systems
