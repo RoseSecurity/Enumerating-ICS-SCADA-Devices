@@ -40,6 +40,14 @@ msf auxiliary(modbus_findunitid) > show options
     ...show and set options...
 msf auxiliary(modbus_findunitid) > run
 
+# Modbus Banner Grabbing
+
+msf > use auxiliary/scanner/scada/modbus_banner_grabbing
+msf auxiliary(modbus_banner_grabbing) > show options
+    ... show and set options ...
+msf auxiliary(modbus_banner_grabbing) > set RHOSTS ip-range
+msf auxiliary(modbus_banner_grabbing) > exploit
+
 # BACnet Scanning
 
 nmap -Pn -sU -p47808 --script bacnet-info <target>
