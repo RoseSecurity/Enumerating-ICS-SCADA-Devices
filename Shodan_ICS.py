@@ -5,6 +5,8 @@ import requests
 import csv
 import os
 
+# Script Creates a CSV of Internet Facing ICS Devices
+
 # Date Formatting
 ics_date = date.today()
 formatted_date = ics_date.strftime("%b-%d-%Y")
