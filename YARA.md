@@ -27,3 +27,15 @@ rule Industroyer2
         (1 of ($x*) and all of ($s*))
 }
 ```
+Filenames:
+
+```
+# Filename IOCs mentioned in Industroyer2 Report https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/
+\\108_100\.exe;85
+\\zrada\.exe;75
+\\pa\.pay$;65
+\\link\.ps1;60
+\\sc\.sh$;65
+\\wobf\.sh;80
+\\wsol\.sh;80
+```
